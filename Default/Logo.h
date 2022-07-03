@@ -1,5 +1,6 @@
 #pragma once
 #include "Scene.h"
+#include "Enum.h"
 class CLogo :
 	public CScene
 {

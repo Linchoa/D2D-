@@ -2,7 +2,9 @@
 #include "ObjMgr.h"
 #include "Function.h"
 #include "Define.h"
+#include "ColisionMgr.h"
 
+CObjMgr*		CObjMgr::m_pInstance = nullptr;
 
 CObjMgr::CObjMgr()
 {
@@ -34,7 +36,7 @@ int CObjMgr::Update(void)
 {
 	int	iEvent = 0;
 
-	for (size_t i = 1; i < OBJ_END; ++i)
+	for (size_t i = 0; i < OBJ_END; ++i)
 	{
 		for (auto& iter = m_ObjList[i].begin();
 			iter != m_ObjList[i].end();)
@@ -56,16 +58,24 @@ int CObjMgr::Update(void)
 
 void CObjMgr::Late_Update(void)
 {
-	for (size_t i = 1; i < OBJ_END; ++i)
+	CColisionMgr::CollisionPlayerBlock(m_ObjList[OBJ_PLAYER].front(), &m_ObjList[OBJ_BLOCK]);
+	CColisionMgr::CollisionPlayerScore(m_ObjList[OBJ_PLAYER].front(), &m_ObjList[OBJ_ITEM]);
+
+	for (size_t i = 0; i < OBJ_END; ++i)
 	{
 		for (auto& iter : m_ObjList[i])
+		{
 			iter->Late_Update();
+
+			if (m_ObjList[i].empty())
+				break;
+		}
 	}
 }
 
 void CObjMgr::Render(HDC hDC)
 {
-	for (size_t i = 1; i < OBJ_END; ++i)
+	for (size_t i = 0; i < OBJ_END; ++i)
 	{
 		for (auto& iter : m_ObjList[i])
 			iter->Render(hDC);
@@ -74,7 +84,7 @@ void CObjMgr::Render(HDC hDC)
 
 void CObjMgr::Release(void)
 {
-	for (size_t i = 1; i < OBJ_END; ++i)
+	for (size_t i = 0; i < OBJ_END; ++i)
 	{
 		for (auto& iter : m_ObjList[i])
 			Safe_Delete(iter);

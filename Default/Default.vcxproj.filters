@@ -76,6 +76,21 @@
     <Filter Include="02. Scene\06. Ending">
       <UniqueIdentifier>{2221ef53-9083-4383-b9d1-05777f2083b4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="98. Design\BmpMgr">
+      <UniqueIdentifier>{d7d16fcf-8af8-43a7-b1a4-c8542c29814a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Design\BmpMgr\MyBmp">
+      <UniqueIdentifier>{687c7ac4-d2db-44f2-a5ba-35d3a033f7ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\03. MyButton">
+      <UniqueIdentifier>{f0a01959-65d2-4621-9531-a22bc10c6ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\04. BlockStage3">
+      <UniqueIdentifier>{eb13476e-d3c8-4ea4-8d48-c880d8a2e333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02. Item\00. Item_Score">
+      <UniqueIdentifier>{87b8f12e-6c28-4aa1-87f0-6a3d1cea3fea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -165,6 +180,21 @@
     <ClInclude Include="ObjMgr.h">
       <Filter>98. Design\ObjMgr</Filter>
     </ClInclude>
+    <ClInclude Include="BmpMgr.h">
+      <Filter>98. Design\BmpMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBmp.h">
+      <Filter>98. Design\BmpMgr\MyBmp</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>01. Obj\03. MyButton</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockStage3.h">
+      <Filter>01. Obj\04. BlockStage3</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemScore.h">
+      <Filter>01. Obj\02. Item\00. Item_Score</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -226,6 +256,21 @@
     </ClCompile>
     <ClCompile Include="ObjMgr.cpp">
       <Filter>98. Design\ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpMgr.cpp">
+      <Filter>98. Design\BmpMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBmp.cpp">
+      <Filter>98. Design\BmpMgr\MyBmp</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>01. Obj\03. MyButton</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockStage3.cpp">
+      <Filter>01. Obj\04. BlockStage3</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemScore.cpp">
+      <Filter>01. Obj\02. Item\00. Item_Score</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

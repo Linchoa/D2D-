@@ -12,6 +12,15 @@ public:
 		return pInstance;
 	}
 
+	static CObj*		Create(float _iX, float _iY)
+	{
+		CObj*		pInstance = new T;
+		pInstance->Set_Pos(_iX, _iY);
+		pInstance->Initialize();
+
+		return pInstance;
+	}
+
 public:
 	CAbstractFactory() {}
 	~CAbstractFactory() {}

@@ -13,5 +13,10 @@ public:
 	void	Late_Update(void);
 	void	Render(HDC hDC);
 	void	Release(void);
+
+private:
+	int			m_iYScroll;
+	DWORD		m_dwItemTime;
+	int			m_iItemTimer;
 };
 

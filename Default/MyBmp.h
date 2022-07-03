@@ -1,0 +1,24 @@
+#pragma once
+
+#include "Define.h"
+#include "Function.h"
+
+class CMyBmp
+{
+public:
+	CMyBmp();
+	~CMyBmp();
+
+public:
+	HDC			Get_MemDC() { return m_hMemDC; }
+public:
+	void		Load_Bmp(const TCHAR* pFilePath);
+	void		Release(void);
+
+private:
+	HDC			m_hMemDC;
+
+	HBITMAP		m_hBitMap;
+	HBITMAP		m_hOldMap;
+};
+

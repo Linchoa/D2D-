@@ -14,6 +14,8 @@ public:
 		m_tInfo.vPos.x = _fX;
 		m_tInfo.vPos.y = _fY;
 	}
+	void		Set_FrameKey(TCHAR* _pFrameKey) { m_pFrameKey = _pFrameKey; }
+	void		Set_Dead() { m_bDead = true; }
 
 	const INFO&		Get_Info(void)const { return m_tInfo; }
 
@@ -29,6 +31,10 @@ protected:
 	float		m_fAngle = 0.f;
 	float		m_fSpeed;
 
+	bool		m_bDead;
+
 	CObj*		m_pTarget;
+
+	TCHAR*		m_pFrameKey;
 };
 

@@ -14,6 +14,7 @@ public:					// 持失切, 社瑚切
  public:
 	void		Initialize(void);
 	void		Update(void);
+	void		Late_Update(void);
 	void		Render(void);
 	void		Release(void);
 

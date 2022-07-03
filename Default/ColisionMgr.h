@@ -9,6 +9,7 @@ public:
 	~CColisionMgr();
 
 public:
-
+	static void CollisionPlayerBlock(CObj* _pPlayer, list<CObj*>* _pBlock);
+	static void CollisionPlayerScore(CObj* _pPlayer, list<CObj*>* _pItem);
 };
 

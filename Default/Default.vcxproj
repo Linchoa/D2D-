@@ -152,6 +152,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractFactory.h" />
+    <ClInclude Include="BlockStage3.h" />
+    <ClInclude Include="BmpMgr.h" />
     <ClInclude Include="ColisionMgr.h" />
     <ClInclude Include="Default.h" />
     <ClInclude Include="Define.h" />
@@ -160,12 +162,15 @@
     <ClInclude Include="Function.h" />
     <ClInclude Include="Include.h" />
     <ClInclude Include="Item.h" />
+    <ClInclude Include="ItemScore.h" />
     <ClInclude Include="KeyMgr.h" />
     <ClInclude Include="LineMgr.h" />
     <ClInclude Include="Logo.h" />
     <ClInclude Include="MainGame.h" />
     <ClInclude Include="MenuScene.h" />
     <ClInclude Include="Monster.h" />
+    <ClInclude Include="MyBmp.h" />
+    <ClInclude Include="MyButton.h" />
     <ClInclude Include="Obj.h" />
     <ClInclude Include="ObjMgr.h" />
     <ClInclude Include="Player.h" />
@@ -181,16 +186,21 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BlockStage3.cpp" />
+    <ClCompile Include="BmpMgr.cpp" />
     <ClCompile Include="ColisionMgr.cpp" />
     <ClCompile Include="Default.cpp" />
     <ClCompile Include="Ending.cpp" />
     <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ItemScore.cpp" />
     <ClCompile Include="KeyMgr.cpp" />
     <ClCompile Include="LineMgr.cpp" />
     <ClCompile Include="Logo.cpp" />
     <ClCompile Include="MainGame.cpp" />
     <ClCompile Include="MenuScene.cpp" />
     <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="MyBmp.cpp" />
+    <ClCompile Include="MyButton.cpp" />
     <ClCompile Include="Obj.cpp" />
     <ClCompile Include="ObjMgr.cpp" />
     <ClCompile Include="Player.cpp" />
