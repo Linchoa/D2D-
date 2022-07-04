@@ -91,6 +91,9 @@
     <Filter Include="01. Obj\02. Item\00. Item_Score">
       <UniqueIdentifier>{87b8f12e-6c28-4aa1-87f0-6a3d1cea3fea}</UniqueIdentifier>
     </Filter>
+    <Filter Include="01. Obj\01. Monster\00. Crow">
+      <UniqueIdentifier>{a7ecd625-ffd1-47ed-97ab-e81476887f1c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -195,6 +198,9 @@
     <ClInclude Include="ItemScore.h">
       <Filter>01. Obj\02. Item\00. Item_Score</Filter>
     </ClInclude>
+    <ClInclude Include="Crow.h">
+      <Filter>01. Obj\01. Monster\00. Crow</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -271,6 +277,9 @@
     </ClCompile>
     <ClCompile Include="ItemScore.cpp">
       <Filter>01. Obj\02. Item\00. Item_Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Crow.cpp">
+      <Filter>01. Obj\01. Monster\00. Crow</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

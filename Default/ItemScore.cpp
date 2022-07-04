@@ -29,6 +29,8 @@ void CItemScore::Initialize(void)
 
 	for (int i = 0; i < 3; ++i)
 		m_vOriginPoint[i] = m_vPoint[i];
+
+	m_fAngle = D3DXToRadian(rand()% 100 + 130);
 }
 
 int CItemScore::Update(void)
@@ -37,7 +39,8 @@ int CItemScore::Update(void)
 		return OBJ_DEAD;
 	}
 
-	m_tInfo.vPos.y += m_fSpeed;
+	D3DXVec3TransformNormal(&m_tInfo.vDir, &m_tInfo.vLook, &m_tInfo.matWorld);
+	m_tInfo.vPos += m_tInfo.vDir * m_fSpeed;
 
 	D3DXMATRIX	matScale, matRotZ, matTrans;
 
@@ -55,7 +58,7 @@ int CItemScore::Update(void)
 		D3DXVec3TransformCoord(&m_vPoint[i], &m_vPoint[i], &m_tInfo.matWorld);
 	}
 
-	m_fAngle += D3DXToRadian(1.f);;
+	//m_fAngle += D3DXToRadian(3.f);
 
 	return OBJ_NOEVENT; 
 }
@@ -65,6 +68,11 @@ void CItemScore::Late_Update(void)
 	int iScrollY = (int)CScrollMgr::Get_Instance()->Get_ScrollY();
 	if (m_tInfo.vPos.y - 50 + iScrollY > 800)
 		m_bDead = true;
+
+	if(m_tInfo.vPos.x < 20)
+		m_fAngle = D3DXToRadian(rand() % 40 + 110);
+	else if(m_tInfo.vPos.x > 480)
+		m_fAngle = D3DXToRadian(rand() % 40 + 210);
 }
 
 void CItemScore::Render(HDC hDC)

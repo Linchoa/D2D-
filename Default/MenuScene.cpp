@@ -26,8 +26,6 @@ void CMenuScene::Initialize(void)
 	CBmpMgr::Get_Instance()->Insert_Bmp(L"../Image/Button/Menu_Button2.bmp", L"Stage2");
 	CBmpMgr::Get_Instance()->Insert_Bmp(L"../Image/Button/Menu_Button3.bmp", L"Stage3");
 
-	CObjMgr::Get_Instance()->Add_Object(OBJ_PLAYER, CAbstractFactory<CPlayer>::Create());
-
 	CObj*	pObj = CAbstractFactory<CMyButton>::Create(250.f, 300.f);
 	pObj->Set_FrameKey(L"Stage1");
 	CObjMgr::Get_Instance()->Add_Object(OBJ_BUTTON, pObj);

@@ -48,10 +48,10 @@ void CMyButton::Late_Update(void)
 			return;
 		}
 
-		m_iDrawID = 0;
+		m_iDrawID = 1;
 	}
 	else
-		m_iDrawID = 1;
+		m_iDrawID = 0;
 }
 
 void CMyButton::Render(HDC hDC)
