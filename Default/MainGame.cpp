@@ -6,7 +6,6 @@
 #include "ScrollMgr.h"
 #include "ObjMgr.h"
 
-
 CMainGame::CMainGame()
 	: m_pPlayer(nullptr), m_pMonster(nullptr)
 {

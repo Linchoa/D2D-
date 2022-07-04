@@ -20,7 +20,6 @@ void CPlayer::Initialize(void)
 	m_tInfo.vPos = { 26.f, 774.f, 0.f };
 	m_tInfo.vLook = { 1.f, 0.f, 0.f };
 
-
 	m_vOriginPos = m_tInfo.vPos;
 
 	m_fSpeed = 10.f;
@@ -178,9 +177,10 @@ void CPlayer::Offset(void)
 {
 	switch (CSceneMgr::Get_Instance()->Get_Scene()) {
 	case SC_STAGE1:
-
+		
 		break;
 	case SC_STAGE2:
+		
 		break;
 	case SC_STAGE3:
 		CScrollMgr::Get_Instance()->Set_ScrollY(2.f);

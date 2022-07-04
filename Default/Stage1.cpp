@@ -76,8 +76,8 @@ void CStage1::Render(HDC hDC)
 		swprintf_s(szBuff, L"%d", static_cast<CPlayer*>(CObjMgr::Get_Instance()->Get_List(OBJ_PLAYER)->front())->Get_Score(0));
 		SetTextColor(hDC, RGB(255, 130, 0));
 		TextOut(hDC, 150, 620, szBuff, lstrlen(szBuff));
-
-		DeleteObject(oldFont);
+		Font = (HFONT)SelectObject(hDC, oldFont);
+		DeleteObject(Font);
 	}
 	else {
 		hGroundDC = CBmpMgr::Get_Instance()->Find_Image(L"Map");
@@ -93,8 +93,8 @@ void CStage1::Render(HDC hDC)
 		swprintf_s(szBuff, L"Score : %d", static_cast<CPlayer*>(CObjMgr::Get_Instance()->Get_List(OBJ_PLAYER)->front())->Get_Score(0));
 		SetTextColor(hDC, RGB(0, 200, 255));
 		TextOut(hDC, 30, 40, szBuff, lstrlen(szBuff));
-
-		DeleteObject(oldFont);
+		Font = (HFONT)SelectObject(hDC, oldFont);
+		DeleteObject(Font);
 	}
 }
 

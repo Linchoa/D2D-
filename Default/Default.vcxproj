@@ -154,6 +154,7 @@
     <ClInclude Include="AbstractFactory.h" />
     <ClInclude Include="BlockStage3.h" />
     <ClInclude Include="BmpMgr.h" />
+    <ClInclude Include="C2_Goal.h" />
     <ClInclude Include="ColisionMgr.h" />
     <ClInclude Include="Crow.h" />
     <ClInclude Include="Default.h" />
@@ -176,9 +177,15 @@
     <ClInclude Include="ObjMgr.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="S2_CObjMgr.h" />
+    <ClInclude Include="S2_Line.h" />
+    <ClInclude Include="S2_LineMgr.h" />
+    <ClInclude Include="S2_Obstacle.h" />
+    <ClInclude Include="S2_Player.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SceneMgr.h" />
     <ClInclude Include="ScrollMgr.h" />
+    <ClInclude Include="SC_Obj.h" />
     <ClInclude Include="Stage1.h" />
     <ClInclude Include="Stage2.h" />
     <ClInclude Include="Stage3.h" />
@@ -189,6 +196,7 @@
   <ItemGroup>
     <ClCompile Include="BlockStage3.cpp" />
     <ClCompile Include="BmpMgr.cpp" />
+    <ClCompile Include="C2_Goal.cpp" />
     <ClCompile Include="ColisionMgr.cpp" />
     <ClCompile Include="Crow.cpp" />
     <ClCompile Include="Default.cpp" />
@@ -206,9 +214,15 @@
     <ClCompile Include="Obj.cpp" />
     <ClCompile Include="ObjMgr.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="S2_CObjMgr.cpp" />
+    <ClCompile Include="S2_Line.cpp" />
+    <ClCompile Include="S2_LineMgr.cpp" />
+    <ClCompile Include="S2_Obstacle.cpp" />
+    <ClCompile Include="S2_Player.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneMgr.cpp" />
     <ClCompile Include="ScrollMgr.cpp" />
+    <ClCompile Include="SC_Obj.cpp" />
     <ClCompile Include="Stage1.cpp" />
     <ClCompile Include="Stage2.cpp" />
     <ClCompile Include="Stage3.cpp" />

@@ -1,5 +1,78 @@
-﻿  Player.cpp
-c:\users\seokyoonji\desktop\d2d_mini\d2d-mini\default\player.cpp(61): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\seokyoonji\desktop\d2d_mini\d2d-mini\default\player.cpp(108): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Default.vcxproj -> C:\Users\SeokYoonJi\Desktop\D2D_Mini\D2D-Mini\Debug\Default.exe
-  Default.vcxproj -> C:\Users\SeokYoonJi\Desktop\D2D_Mini\D2D-Mini\Debug\Default.pdb (Full PDB)
+﻿  stdafx.cpp
+  Stage3.cpp
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\stage3.cpp(42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\stage3.cpp(74): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Stage2.cpp
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\stage2.cpp(43): warning C4244: '=': conversion from 'DWORD' to 'float', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\stage2.cpp(60): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\stage2.cpp(72): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\stage2.cpp(92): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\stage2.cpp(110): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\stage2.cpp(130): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\stage2.cpp(264): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\stage2.cpp(270): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+  Stage1.cpp
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\stage1.cpp(48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  SC_Obj.cpp
+  ScrollMgr.cpp
+  SceneMgr.cpp
+  Scene.cpp
+  S2_Player.cpp
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\s2_player.cpp(196): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\s2_player.cpp(200): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\s2_player.cpp(202): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\s2_player.cpp(204): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\s2_player.cpp(208): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  S2_Obstacle.cpp
+  S2_LineMgr.cpp
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\s2_linemgr.cpp(140): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\s2_linemgr.cpp(171): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\s2_linemgr.cpp(189): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\s2_linemgr.cpp(201): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\s2_linemgr.cpp(225): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\s2_linemgr.cpp(245): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\s2_linemgr.cpp(260): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\s2_linemgr.cpp(297): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\s2_linemgr.cpp(308): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  S2_Line.cpp
+  S2_CObjMgr.cpp
+  Player.cpp
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\player.cpp(60): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\player.cpp(107): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  ObjMgr.cpp
+  Obj.cpp
+  MyButton.cpp
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\mybutton.cpp(33): warning C4838: conversion from 'float' to 'LONG' requires a narrowing conversion
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\mybutton.cpp(33): warning C4244: 'initializing': conversion from 'float' to 'LONG', possible loss of data
+  MyBmp.cpp
+  Monster.cpp
+  MenuScene.cpp
+  MainGame.cpp
+  Generating Code...
+  Compiling...
+  Logo.cpp
+  LineMgr.cpp
+  KeyMgr.cpp
+  ItemScore.cpp
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\itemscore.cpp(82): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\itemscore.cpp(86): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\itemscore.cpp(98): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Item.cpp
+  Ending.cpp
+  Default.cpp
+  Crow.cpp
+  ColisionMgr.cpp
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\colisionmgr.cpp(52): warning C4838: conversion from 'float' to 'LONG' requires a narrowing conversion
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\colisionmgr.cpp(52): warning C4244: 'initializing': conversion from 'float' to 'LONG', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\colisionmgr.cpp(55): warning C4838: conversion from 'float' to 'LONG' requires a narrowing conversion
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\colisionmgr.cpp(55): warning C4244: 'initializing': conversion from 'float' to 'LONG', possible loss of data
+  C2_Goal.cpp
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\c2_goal.cpp(43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\c2_goal.cpp(47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\c2_goal.cpp(49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  BmpMgr.cpp
+  BlockStage3.cpp
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (4)\default\blockstage3.cpp(35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  Default.vcxproj -> C:\Users\lhs\OneDrive\바탕 화면\D2D_team\새 폴더 (4)\Debug\Default.exe
+  Default.vcxproj -> C:\Users\lhs\OneDrive\바탕 화면\D2D_team\새 폴더 (4)\Debug\Default.pdb (Full PDB)

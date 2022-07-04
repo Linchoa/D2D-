@@ -33,6 +33,11 @@ public:
 		m_bWin = false;
 		m_bDead = false;
 	}
+	void	Set_Reset() {
+		m_iScore[2] = 0;
+		m_bWin = false;
+		m_bDead = false;
+	}
 
 private:
 	void		Key_Input(void);

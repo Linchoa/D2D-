@@ -29,7 +29,6 @@ int CMonster::Update(void)
 	}
 
 	m_tInfo.vPos.y += m_fSpeed;
-
 	return OBJ_NOEVENT;
 }
 

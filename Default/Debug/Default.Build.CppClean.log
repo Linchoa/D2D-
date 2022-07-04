@@ -1,22 +1,50 @@
-c:\users\administrator\desktop\defaultwindow\default\debug\default.pch
-c:\users\administrator\desktop\defaultwindow\default\debug\vc140.pdb
-c:\users\administrator\desktop\defaultwindow\default\debug\vc140.idb
-c:\users\administrator\desktop\defaultwindow\default\debug\stdafx.obj
-c:\users\administrator\desktop\defaultwindow\default\debug\bullet.obj
-c:\users\administrator\desktop\defaultwindow\default\debug\default.obj
-c:\users\administrator\desktop\defaultwindow\default\debug\maingame.obj
-c:\users\administrator\desktop\defaultwindow\default\debug\obj.obj
-c:\users\administrator\desktop\defaultwindow\default\debug\player.obj
-c:\users\administrator\desktop\defaultwindow\debug\default.ilk
-c:\users\administrator\desktop\defaultwindow\debug\default.exe
-c:\users\administrator\desktop\defaultwindow\debug\default.pdb
-c:\users\administrator\desktop\defaultwindow\default\debug\default.res
-c:\users\administrator\desktop\defaultwindow\default\debug\default.tlog\cl.command.1.tlog
-c:\users\administrator\desktop\defaultwindow\default\debug\default.tlog\cl.read.1.tlog
-c:\users\administrator\desktop\defaultwindow\default\debug\default.tlog\cl.write.1.tlog
-c:\users\administrator\desktop\defaultwindow\default\debug\default.tlog\link.command.1.tlog
-c:\users\administrator\desktop\defaultwindow\default\debug\default.tlog\link.read.1.tlog
-c:\users\administrator\desktop\defaultwindow\default\debug\default.tlog\link.write.1.tlog
-c:\users\administrator\desktop\defaultwindow\default\debug\default.tlog\rc.command.1.tlog
-c:\users\administrator\desktop\defaultwindow\default\debug\default.tlog\rc.read.1.tlog
-c:\users\administrator\desktop\defaultwindow\default\debug\default.tlog\rc.write.1.tlog
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\default.pch
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\vc140.pdb
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\vc140.idb
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\stdafx.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\maingame.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\menuscene.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\monster.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\mybmp.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\mybutton.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\obj.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\objmgr.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\player.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\s2_cobjmgr.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\s2_line.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\s2_linemgr.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\s2_obstacle.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\s2_player.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\scene.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\scenemgr.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\scrollmgr.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\sc_obj.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\stage1.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\stage2.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\stage3.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\blockstage3.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\bmpmgr.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\c2_goal.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\colisionmgr.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\crow.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\default.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\ending.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\item.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\itemscore.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\keymgr.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\linemgr.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\logo.obj
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\debug\default.ilk
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\debug\default.exe
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\debug\default.pdb
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\default.res
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\stage2.obj.enc
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\default.tlog\cl.command.1.tlog
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\default.tlog\cl.read.1.tlog
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\default.tlog\cl.write.1.tlog
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\default.tlog\link.command.1.tlog
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\default.tlog\link.read.1.tlog
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\default.tlog\link.write.1.tlog
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\default.tlog\rc.command.1.tlog
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\default.tlog\rc.read.1.tlog
+c:\users\lhs\onedrive\바탕 화면\d2d_team\새 폴더 (3)\default\debug\default.tlog\rc.write.1.tlog
