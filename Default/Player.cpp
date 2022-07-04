@@ -100,11 +100,6 @@ void CPlayer::Key_Input(void)
 		}
 		break;
 	}
-	//if (GetAsyncKeyState(VK_RIGHT))
-	//	m_fAngle += D3DXToRadian(3.f);
-
-	//if (GetAsyncKeyState(VK_LEFT))
-	//	m_fAngle -= D3DXToRadian(3.f);
 }
 
 void CPlayer::Jumping(void)
