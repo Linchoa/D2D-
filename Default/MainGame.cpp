@@ -3,6 +3,8 @@
 #include "Monster.h"
 #include "BmpMgr.h"
 #include "SceneMgr.h"
+#include "ScrollMgr.h"
+#include "ObjMgr.h"
 
 
 CMainGame::CMainGame()
@@ -47,5 +49,9 @@ void CMainGame::Render(void)
 
 void CMainGame::Release(void)
 {
+	CSceneMgr::Get_Instance()->Destroy_Instance();
+	CBmpMgr::Get_Instance()->Destroy_Instance();
+	CScrollMgr::Get_Instance()->Destroy_Instance();
+	CObjMgr::Get_Instance()->Destroy_Instance();
 	ReleaseDC(g_hWnd, m_hDC);
 }

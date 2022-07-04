@@ -17,8 +17,9 @@ CPlayer::~CPlayer()
 
 void CPlayer::Initialize(void) 
 {
-	m_tInfo.vPos = { 250.f, 700.f, 0.f };
+	m_tInfo.vPos = { 26.f, 774.f, 0.f };
 	m_tInfo.vLook = { 1.f, 0.f, 0.f };
+
 
 	m_vOriginPos = m_tInfo.vPos;
 
@@ -33,7 +34,9 @@ int CPlayer::Update(void)
 
 	switch (CSceneMgr::Get_Instance()->Get_Scene()) {
 	case SC_STAGE1:
-
+		if (m_bDead)
+			m_bDead = true;
+		Key_Input();
 		break;
 	case SC_STAGE2:
 		break;
@@ -69,6 +72,10 @@ void CPlayer::Late_Update(void)
 {
 	switch (CSceneMgr::Get_Instance()->Get_Scene()) {
 	case SC_STAGE1:
+		if (25.f >= m_tInfo.vPos.x)
+			m_tInfo.vPos.x = 25.f;
+		if (WINCX - 25.f <= m_tInfo.vPos.x)
+			m_tInfo.vPos.x = WINCX - 25.f;
 		break;
 	case SC_STAGE2:
 		break;
@@ -89,6 +96,11 @@ void CPlayer::Render(HDC hDC)
 
 	switch (CSceneMgr::Get_Instance()->Get_Scene()) {
 	case SC_STAGE1:
+		Rectangle(hDC,
+			int(m_tInfo.vPos.x - 25.f),
+			int(m_tInfo.vPos.y - 25.f),
+			int(m_tInfo.vPos.x + 25.f),
+			int(m_tInfo.vPos.y + 25.f));
 		break;
 	case SC_STAGE2:
 		break;
@@ -102,6 +114,11 @@ void CPlayer::Key_Input(void)
 {
 	switch (CSceneMgr::Get_Instance()->Get_Scene()) {
 	case SC_STAGE1:
+		if (CKeyMgr::Get_Instance()->Key_Pressing(VK_RIGHT) || CKeyMgr::Get_Instance()->Key_Pressing('D'))
+			m_tInfo.vPos.x += m_fSpeed;
+
+		if (CKeyMgr::Get_Instance()->Key_Pressing(VK_LEFT) || CKeyMgr::Get_Instance()->Key_Pressing('A'))
+			m_tInfo.vPos.x -= m_fSpeed;
 		break;
 	case SC_STAGE2:
 		break;

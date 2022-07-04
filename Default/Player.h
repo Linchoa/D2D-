@@ -28,8 +28,8 @@ public:
 	float	Get_Size() { return m_fSize; }
 	bool	Get_Win() { return m_bWin; }
 	int		Get_Score(int _iNum) { return m_iScore[_iNum]; }
-	void	Set_Reset() {
-		m_iScore[2] = 0;
+	void	Set_Reset(int _iNum) {
+		m_iScore[_iNum] = 0;
 		m_bWin = false;
 		m_bDead = false;
 	}

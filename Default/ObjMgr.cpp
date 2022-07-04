@@ -60,6 +60,7 @@ void CObjMgr::Late_Update(void)
 {
 	CColisionMgr::CollisionPlayerBlock(m_ObjList[OBJ_PLAYER].front(), &m_ObjList[OBJ_BLOCK]);
 	CColisionMgr::CollisionPlayerScore(m_ObjList[OBJ_PLAYER].front(), &m_ObjList[OBJ_ITEM]);
+	CColisionMgr::Collision_Player_Monster_Stage1(m_ObjList[OBJ_MONSTER], m_ObjList[OBJ_PLAYER].front());
 
 	for (size_t i = 0; i < OBJ_END; ++i)
 	{

@@ -54,13 +54,13 @@ void CStage3::Update(void)
 	if (CObjMgr::Get_Instance()->Get_List(OBJ_PLAYER)->front()->Get_Dead()) {
 		if (CKeyMgr::Get_Instance()->Key_Down(VK_RBUTTON) || CKeyMgr::Get_Instance()->Key_Down(VK_LBUTTON)) {
 			CSceneMgr::Get_Instance()->Scene_Change(SC_MENU);
-			static_cast<CPlayer*>(CObjMgr::Get_Instance()->Get_List(OBJ_PLAYER)->front())->Set_Reset();
+			static_cast<CPlayer*>(CObjMgr::Get_Instance()->Get_List(OBJ_PLAYER)->front())->Set_Reset(2);
 		}
 	}
 	else if (static_cast<CPlayer*>(CObjMgr::Get_Instance()->Get_List(OBJ_PLAYER)->front())->Get_Win()) {
 		if (CKeyMgr::Get_Instance()->Key_Down(VK_RBUTTON) || CKeyMgr::Get_Instance()->Key_Down(VK_LBUTTON)) {
 			CSceneMgr::Get_Instance()->Scene_Change(SC_MENU);
-			static_cast<CPlayer*>(CObjMgr::Get_Instance()->Get_List(OBJ_PLAYER)->front())->Set_Reset();
+			static_cast<CPlayer*>(CObjMgr::Get_Instance()->Get_List(OBJ_PLAYER)->front())->Set_Reset(2);
 		}
 	}
 	else {
@@ -102,6 +102,8 @@ void CStage3::Render(HDC hDC)
 		swprintf_s(szBuff, L"%d", static_cast<CPlayer*>(CObjMgr::Get_Instance()->Get_List(OBJ_PLAYER)->front())->Get_Score(2));
 		SetTextColor(hDC, RGB(255, 130, 0));
 		TextOut(hDC, 180, 620, szBuff, lstrlen(szBuff));
+
+		DeleteObject(oldFont);
 	}
 	else {
 		int iScrollX = (int)CScrollMgr::Get_Instance()->Get_ScrollX();

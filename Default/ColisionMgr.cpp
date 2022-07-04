@@ -42,3 +42,22 @@ void CColisionMgr::CollisionPlayerScore(CObj * _pPlayer, list<CObj*>* _pItem)
 	}
 }
 
+void CColisionMgr::Collision_Player_Monster_Stage1(list<CObj*> _Monster, CObj* _Player)
+{
+	RECT rc{};
+
+	for (auto& Monster : _Monster)
+	{
+		RECT Monster_Rect{ Monster->Get_Info().vPos.x - 30.f, Monster->Get_Info().vPos.y - 30.f,
+			Monster->Get_Info().vPos.x + 30.f, Monster->Get_Info().vPos.y + 30.f };
+
+		RECT Player_Rect{ _Player->Get_Info().vPos.x - 25.f, _Player->Get_Info().vPos.y - 25.f,
+			_Player->Get_Info().vPos.x + 25.f, _Player->Get_Info().vPos.y + 25.f };
+
+		if (IntersectRect(&rc, &Monster_Rect, &Player_Rect))
+		{
+			Monster->Set_Dead();
+			_Player->Set_Dead();
+		}
+	}
+}
