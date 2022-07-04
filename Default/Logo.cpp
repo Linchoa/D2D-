@@ -3,6 +3,9 @@
 #include "BmpMgr.h"
 #include "KeyMgr.h"
 #include "SceneMgr.h"
+#include "ObjMgr.h"
+#include "AbstractFactory.h"
+#include "Player.h"
 
 
 CLogo::CLogo()
@@ -18,6 +21,8 @@ CLogo::~CLogo()
 void CLogo::Initialize(void)
 {
 	CBmpMgr::Get_Instance()->Insert_Bmp(L"../Image/Background/Logo.bmp", L"Logo");
+
+	CObjMgr::Get_Instance()->Add_Object(OBJ_PLAYER, CAbstractFactory<CPlayer>::Create());
 }
 
 void CLogo::Update(void)

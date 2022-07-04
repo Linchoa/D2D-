@@ -1,5 +1,5 @@
-﻿  Stage3.cpp
-c:\users\seokyoonji\desktop\d2d_mini\d2d-mini\default\stage3.cpp(36): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\seokyoonji\desktop\d2d_mini\d2d-mini\default\stage3.cpp(54): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Default.vcxproj -> C:\Users\SeokYoonJi\Desktop\D2D_Mini\D2D-Mini\Debug\Default.exe
-  Default.vcxproj -> C:\Users\SeokYoonJi\Desktop\D2D_Mini\D2D-Mini\Debug\Default.pdb (Full PDB)
+﻿  MyButton.cpp
+c:\users\석재욱\desktop\윤지_공부\새 폴더\d2d-mini\default\mybutton.cpp(33): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\석재욱\desktop\윤지_공부\새 폴더\d2d-mini\default\mybutton.cpp(33): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Default.vcxproj -> C:\Users\석재욱\Desktop\윤지_공부\새 폴더\D2D-Mini\Debug\Default.exe
+  Default.vcxproj -> C:\Users\석재욱\Desktop\윤지_공부\새 폴더\D2D-Mini\Debug\Default.pdb (Full PDB)

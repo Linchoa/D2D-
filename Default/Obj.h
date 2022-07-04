@@ -18,6 +18,7 @@ public:
 	void		Set_Dead() { m_bDead = true; }
 
 	const INFO&		Get_Info(void)const { return m_tInfo; }
+	const bool&		Get_Dead(void)const { return m_bDead; }
 
 public:
 	virtual		void	Initialize(void)	PURE;
